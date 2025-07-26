@@ -8,19 +8,18 @@ function create_dialog(_messages)
 }
 
 char_colors = {
-    "Stickman": c_yellow,
-    "You": c_aqua,
-    "Bubby": c_white
+    "Scientist": c_aqua,
+    "You": c_white,
 }
 welcome_dialog = [
 {
-    name: "Stickman",
-    msg: "Hey! How's it going?"
+    name: "Scientist",
+    msg: "Welcome! Use LEFT CLICK on your mouse to progress through dialogue, and make decisions."
 },
 
 {
-    name: "You",
-    msg: "You were very kind in your greeting to Stickman."
+    name: "Scientist",
+    msg: "Choose wisely!"
 },
 ]
 
