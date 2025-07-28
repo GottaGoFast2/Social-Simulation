@@ -1,6 +1,6 @@
 action = function ()
 {
-    if (obj_battle_player.data.charge >= 1)
+    if (obj_battle_player.data.charge >= 0)
     {
         obj_battle_player.data.charge = 0;
     

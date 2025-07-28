@@ -10,6 +10,7 @@ function create_dialog(_messages)
 char_colors = {
     "Scientist": c_aqua,
     "You": c_white,
+    "Charlie":c_orange,
 }
 welcome_dialog = [
 {
@@ -31,5 +32,11 @@ snow_diag1 = [
 {
     name: "You",
     msg: "This time, you greeted Bubby less kindly than you did Stickman because you were envious that Bubby had four animation frames while you only had two."
+},
+]
+compassiontest1 = [
+{
+    name: "Charlie",
+    msg: "My battery is running low. Please assist me."
 },
 ]

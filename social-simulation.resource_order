@@ -29,7 +29,6 @@
     {"name":"obj_dialog","order":4,"path":"objects/obj_dialog/obj_dialog.yy",},
     {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
     {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
-    {"name":"obj_gamemanager","order":10,"path":"objects/obj_gamemanager/obj_gamemanager.yy",},
     {"name":"obj_npc_parent","order":5,"path":"objects/obj_npc_parent/obj_npc_parent.yy",},
     {"name":"obj_npc1","order":6,"path":"objects/obj_npc1/obj_npc1.yy",},
     {"name":"obj_npc2","order":7,"path":"objects/obj_npc2/obj_npc2.yy",},
@@ -58,7 +57,7 @@
     {"name":"spr_slash","order":9,"path":"sprites/spr_slash/spr_slash.yy",},
     {"name":"spr_tileset","order":10,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_titlelogo","order":1,"path":"sprites/spr_titlelogo/spr_titlelogo.yy",},
-    {"name":"Sprite22","order":6,"path":"sprites/Sprite22/Sprite22.yy",},
+    {"name":"Sprite22","order":22,"path":"sprites/Sprite22/Sprite22.yy",},
     {"name":"Sprite29","order":20,"path":"sprites/Sprite29/Sprite29.yy",},
   ],
 }
