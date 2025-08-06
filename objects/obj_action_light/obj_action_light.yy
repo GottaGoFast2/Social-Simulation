@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "path":"folders/Notes/Objects/Battle.yy",
   },
   "parentObjectId":{
     "name":"obj_action_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_light",
-    "path":"sprites/spr_button_light/spr_button_light.yy",
+    "name":"Com1P",
+    "path":"sprites/Com1P/Com1P.yy",
   },
   "spriteMaskId":null,
   "visible":true,

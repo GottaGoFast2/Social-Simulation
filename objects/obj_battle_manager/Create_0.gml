@@ -1,5 +1,6 @@
 enemy_turn = 0;
 damage_to_enemy = 0;
+testdialog = 0;
 
 player_attack = function (_damage)
 {

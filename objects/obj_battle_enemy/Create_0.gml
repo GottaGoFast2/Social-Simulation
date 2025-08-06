@@ -1,4 +1,3 @@
 data = obj_battle_switcher.enemy_data;
 sprite_index = data.sprite_index;
-
-create_dialog(global.compassiontest1)
+_text = _question.title;

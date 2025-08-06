@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"Objects",
-    "path":"folders/Objects.yy",
+    "path":"folders/Notes/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_npc_parent",

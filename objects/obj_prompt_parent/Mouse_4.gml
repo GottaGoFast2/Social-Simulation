@@ -1,0 +1,1 @@
+karma_calc = karma_points + kc;

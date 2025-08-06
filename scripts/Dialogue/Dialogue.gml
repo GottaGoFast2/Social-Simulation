@@ -26,7 +26,7 @@ welcome_dialog = [
 
 snow_diag1 = [
 {
-    name: "Bubby",
+    name: "Scientist",
     msg: "Hi there!"
 },
 {

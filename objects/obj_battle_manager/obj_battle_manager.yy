@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "path":"folders/Notes/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
