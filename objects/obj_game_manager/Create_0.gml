@@ -1,29 +1,24 @@
-enum Karma {
-    positive,
-    neutral,
-    bad
+enum karma {
+    positive = 10,
+    neutral = 8,
+    bad = 6
 }
 
-
-
-Question1 = {
+CompassionTest1 = {
   title: "Compassion Test 1",
-  question: "Robot Delta needs help, their battery is running low. They have asked you to help them recharge.",
-  prompts: [ 
+  question: "My battery is running low. Please assist me.",
+  prompt: [ 
 {
-    text: "Give one of your battery cells",
-    value: 10,
-    karma: Karma.positive, 
+    text: "SHARE YOURS",
+    karma: karma.positive
 },
 {
-    text: "ask scientist" ,
-    value: 1,
-    karma: Karma.neutral,
+    text: "WALK AWAY",
+    karma: karma.bad
 },
 {
-    text: "Walk away",
-    value: 1,
-    karma: Karma.bad,
+    text: "CALL for HELP",
+    karma: karma.neutral
 },
 ]
 }
@@ -35,17 +30,19 @@ Question2 = {
 {
     text: "prompt 1",
     value: 10,
-    karma: Karma.positive, 
+    karma: karma.positive, 
 },
 {
     text: "prompt 2" ,
     value: 1,
-    karma: Karma.neutral,
+    karma: karma.neutral,
 },
 {
     text: "prompt 3",
     value: 1,
-    karma: Karma.bad,
+    karma: karma.bad,
 },
 ]
 }
+
+instance_create_layer(0, 0, "Instances", obj_questions, {question: CompassionTest1})

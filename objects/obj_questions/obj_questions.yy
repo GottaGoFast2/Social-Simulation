@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_prompt_neutral",
-  "eventList":[],
+  "%Name":"obj_questions",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_prompt_neutral",
+  "name":"obj_questions",
   "overriddenProperties":[],
   "parent":{
-    "name":"Prompts",
-    "path":"folders/Notes/Objects/Prompts.yy",
+    "name":"Objects",
+    "path":"folders/Notes/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_prompt_parent",
-    "path":"objects/obj_prompt_parent/obj_prompt_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Com1N",
-    "path":"sprites/Com1N/Com1N.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

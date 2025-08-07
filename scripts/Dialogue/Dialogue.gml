@@ -15,28 +15,18 @@ char_colors = {
 welcome_dialog = [
 {
     name: "Scientist",
-    msg: "Welcome! Use LEFT CLICK on your mouse to progress through dialogue, and make decisions."
-},
-
-{
-    name: "Scientist",
-    msg: "Choose wisely!"
+    msg: "test"
 },
 ]
-
-snow_diag1 = [
-{
-    name: "Scientist",
-    msg: "Hi there!"
-},
+compassiontest1 =  [
 {
     name: "You",
-    msg: "This time, you greeted Bubby less kindly than you did Stickman because you were envious that Bubby had four animation frames while you only had two."
-},
+    msg: "test"
+}
 ]
-compassiontest1 = [
+snow_diag1 = [
 {
-    name: "Charlie",
-    msg: "My battery is running low. Please assist me."
-},
+    name: "You",
+    msg: "test"
+}
 ]
