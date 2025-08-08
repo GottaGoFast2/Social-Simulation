@@ -1,0 +1,1 @@
+obj_game_manager.submit_answer(prompts.karma)

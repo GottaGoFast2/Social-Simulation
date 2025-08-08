@@ -4,45 +4,57 @@ enum karma {
     bad = 6
 }
 
-CompassionTest1 = {
-  title: "Compassion Test 1",
+k_points = 0;
+questions = [
+{ 
+  title: "Test 1",
   question: "My battery is running low. Please assist me.",
-  prompt: [ 
-{
-    text: "SHARE YOURS",
-    karma: karma.positive
-},
-{
-    text: "WALK AWAY",
-    karma: karma.bad
-},
-{
-    text: "CALL for HELP",
-    karma: karma.neutral
-},
+  prompt: 
+[ 
+    {
+        text: "SHARE YOURS",
+        karma: karma.positive
+    },
+    {
+       text: "WALK   AWAY",
+        karma: karma.bad
+    },
+    {
+        text: "CALL for HELP",
+        karma: karma.neutral
+    }, 
 ]
-}
+},
 
-Question2 = {
-    title: "Compassion Test 2",
-  question: "testing",
-  prompts: [ 
 {
-    text: "prompt 1",
-    value: 10,
-    karma: karma.positive, 
-},
-{
-    text: "prompt 2" ,
-    value: 1,
-    karma: karma.neutral,
-},
-{
-    text: "prompt 3",
-    value: 1,
-    karma: karma.bad,
-},
+  title: "Test 2",
+  question: "Your friends are building a sandcastle.",
+  prompt:    
+[ 
+    {
+        text: "JOIN A TEAM",
+        karma: karma.positive, 
+    },
+    {
+        text: "MAKE YOUR OWN" ,
+        karma: karma.neutral,
+    },
+    {
+        text: "DESTROY ALL SANDCASTLES",
+        karma: karma.bad,
+    },
 ]
-}
+    },
+    ]
 
-instance_create_layer(0, 0, "Instances", obj_questions, {question: CompassionTest1})
+
+instance_create_layer(0, 0, "Instances", obj_questions, {question: questions[0]})
+
+// function
+submit_answer = function(_karma)
+{
+     k_points = _karma + k_points;
+     show_message(k_points); 
+     instance_destroy(obj_prompt)
+     instance_destroy(obj_questions)
+}
