@@ -3,9 +3,10 @@ enum karma {
     neutral = 8,
     bad = 6
 }
-
+testno = 0;
 k_points = 0;
-questions = [
+questions = 
+[
 { 
   title: "Test 1",
   question: "My battery is running low. Please assist me.",
@@ -36,16 +37,36 @@ questions = [
         karma: karma.positive, 
     },
     {
-        text: "MAKE YOUR OWN" ,
+        text: " MAKE YOUR OWN" ,
         karma: karma.neutral,
     },
     {
-        text: "DESTROY ALL SANDCASTLES",
+        text: "SABOTAGE OTHERS",
         karma: karma.bad,
     },
 ]
+},
+
+{
+  title: "Test 3",
+  question: "this is a test.",
+  prompt:    
+[ 
+    {
+        text: "word word word",
+        karma: karma.positive, 
     },
-    ]
+    {
+        text: "WORD  WORD WORD" ,
+        karma: karma.neutral,
+    },
+    {
+        text: "OMG ANOTHER WORDS",
+        karma: karma.bad,
+    },
+]
+},
+]
 
 
 instance_create_layer(0, 0, "Instances", obj_questions, {question: questions[0]})
@@ -57,4 +78,7 @@ submit_answer = function(_karma)
      show_message(k_points); 
      instance_destroy(obj_prompt)
      instance_destroy(obj_questions)
+     testno = testno + 1;
+     instance_create_layer(0, 0, "Instances", obj_questions, {question: questions[testno]})   
+     
 }

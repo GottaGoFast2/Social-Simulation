@@ -1,7 +1,7 @@
 {
   "$GMFont":"",
-  "%Name":"Font1",
-  "AntiAlias":0,
+  "%Name":"font_dialog",
+  "AntiAlias":1,
   "applyKerning":0,
   "ascender":10,
   "ascenderOffset":0,
@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"fibberish",
+  "fontName":"Blrrpix Strict",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":13,"offset":0,"shift":6,"w":6,"x":2,"y":2,},
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":13,
   "maintainGms1Font":false,
-  "name":"Font1",
+  "name":"font_dialog",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -132,8 +132,8 @@
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "sdfSpread":8,
-  "size":9.0,
-  "styleName":"Regular",
+  "size":24.0,
+  "styleName":"Strict",
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",

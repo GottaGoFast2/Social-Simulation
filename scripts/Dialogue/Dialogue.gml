@@ -15,7 +15,11 @@ char_colors = {
 welcome_dialog = [
 {
     name: "Scientist",
-    msg: "test"
+    msg: "Welcome! Select any option presented to you with the LEFT CLICK button on your mouse!"
+},
+{
+    name: "Scientist",
+    msg: "Choose wisely!"
 },
 ]
 compassiontest1 =  [
