@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"title",
-    "path":"folders/Notes/Objects/title.yy",
+    "path":"folders/Objects/title.yy",
   },
   "parentObjectId":null,
   "persistent":false,

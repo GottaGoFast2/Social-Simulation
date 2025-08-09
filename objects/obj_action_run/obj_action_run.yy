@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",
-    "path":"folders/Notes/Objects/Battle.yy",
+    "path":"folders/Objects/Battle.yy",
   },
   "parentObjectId":{
     "name":"obj_action_parent",
