@@ -4,7 +4,7 @@ enum karma {
     bad = 6
 }
 testno = 0;
-k_points = 0;
+global.k_points = 0;
 questions = 
 [
 { 
@@ -210,11 +210,11 @@ instance_create_layer(0, 0, "Instances", obj_questions, {question: questions[0]}
 // function
 submit_answer = function(_karma)
 {
-     k_points = _karma + k_points;
-     show_message(k_points); 
+     global.k_points = _karma + global.k_points;
+     // show_message(global.k_points); 
      instance_destroy(obj_prompt)
      instance_destroy(obj_questions)
      testno = testno + 1;
      instance_create_layer(0, 0, "Instances", obj_questions, {question: questions[testno]})   
-     
+    
 }
