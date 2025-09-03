@@ -5,5 +5,3 @@ instance_create_layer(130, 9, "Instances", obj_prompt, {prompts:question.prompt[
 instance_create_layer(247, 9, "Instances", obj_prompt, {prompts:question.prompt[2]})
 
 
-
-

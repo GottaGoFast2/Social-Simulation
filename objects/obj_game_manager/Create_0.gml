@@ -4,7 +4,6 @@ enum karma {
     bad = 6
 }
 testno = 0;
-global.k_points = 0;
 questions = 
 [
 { 

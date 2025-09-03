@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game_manager",
+  "%Name":"obj_points",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_game_manager",
+  "name":"obj_points",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

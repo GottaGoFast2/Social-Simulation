@@ -1,0 +1,1 @@
+global.k_points = 0;
