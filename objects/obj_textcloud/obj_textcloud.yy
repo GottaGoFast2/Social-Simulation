@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_action_run",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_textcloud",
+  "eventList":[],
   "managed":true,
-  "name":"obj_action_run",
+  "name":"obj_textcloud",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_action_parent",
-    "path":"objects/obj_action_parent/obj_action_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Com1N",
-    "path":"sprites/Com1N/Com1N.yy",
+    "name":"spr_textcloud",
+    "path":"sprites/spr_textcloud/spr_textcloud.yy",
   },
   "spriteMaskId":null,
   "visible":true,

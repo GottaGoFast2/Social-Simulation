@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_action_light",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object25",
+  "eventList":[],
   "managed":true,
-  "name":"obj_action_light",
+  "name":"Object25",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_action_parent",
-    "path":"objects/obj_action_parent/obj_action_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Com1P",
-    "path":"sprites/Com1P/Com1P.yy",
+    "name":"spr_battle_screen",
+    "path":"sprites/spr_battle_screen/spr_battle_screen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

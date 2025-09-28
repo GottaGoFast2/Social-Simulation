@@ -10,7 +10,7 @@ for (var i = 2; i > 0; i--) {
     prompt_array[j] = temp;
 }
 
-var choice_x = [12, 130, 247];
+var choice_x = [66, 522, 978];
 
 for (var i = 0; i < 3; i++) {
     instance_create_layer(choice_x[i], 9, "Instances", obj_prompt, {
