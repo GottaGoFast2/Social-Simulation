@@ -1,0 +1,1 @@
+audio_play_sound(ost_bgm,0,true)

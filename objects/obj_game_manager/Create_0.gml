@@ -12,16 +12,16 @@ testno = 0;
 questions = 
 [
     {
-      title: "Test 1",
-      question: "My battery is running low. Please assist me.",
+      title: "A Light Snack",
+      question: "He finished his snack, but is still hungry.",
       prompt: [
-          { text: "SHARE YOURS", karma: karma.positive },
-          { text: "WALK   AWAY", karma: karma.bad },
-          { text: "CALL for HELP", karma: karma.neutral }
+          { text: "SHARE YOUR FOOD", karma: karma.positive },
+          { text: "WALK AWAY", karma: karma.bad },
+          { text: "ASK SOMEONE ELSE", karma: karma.neutral }
       ]
     },
     {
-      title: "Test 2",
+      title: "Sandcastle Competition",
       question: "Your friends are building a sandcastle.",
       prompt: [
           { text: "JOIN A TEAM", karma: karma.positive },
@@ -30,7 +30,7 @@ questions =
       ]
     },
      {
-      title: "Test 3", // Empathy 1
+      title: "Upset Kid", // Empathy 1
       question: "They look upset.",
       prompt:    
     [ 
@@ -50,7 +50,7 @@ questions =
     },
     
     {
-      title: "Test 4", // Teamwork 2
+      title: "Socially Awkward", // Teamwork 2
       question: "Your friend is scared to talk to those people over there.",
       prompt:    
     [ 
@@ -69,7 +69,7 @@ questions =
     ]
     },
     {
-      title: "Test 5", // Compassion 2
+      title: "Mockery", // Compassion 2
       question: "They're being bullied and teased, for an unclear reason.",
       prompt:    
     [ 
@@ -89,7 +89,7 @@ questions =
     },
     
     {
-      title: "Test 6", // Teamwork 3
+      title: "In the Dark", // Teamwork 3
       question: "They seem to be left out of whatever their group is upto.",
       prompt:    
     [ 
@@ -108,7 +108,7 @@ questions =
     ]
     },
     {
-      title: "Test 7", // Compassion 3
+      title: "Raging", // Compassion 3
       question: "They are furious, not at you directly.",
       prompt:    
     [ 
@@ -127,7 +127,7 @@ questions =
     ]
     },
     {
-      title: "Test 8", // Empathy 2
+      title: "The New Kid", // Empathy 2
       question: "They seem new around here.",
       prompt:    
     [ 
@@ -146,7 +146,7 @@ questions =
     ]
     },
     {
-      title: "Test 9", // Empathy 3
+      title: "An Accident", // Empathy 3
       question: "They slipped and fell. How embarassing.",
       prompt:    
     [ 
@@ -166,7 +166,7 @@ questions =
     },
     {
     // Test for Compassion
-    title: "Test 10",
+    title: "The Lost Child",
     question: "The child is lost and is asking you for help.",
     prompt: [
       { text: "OFFER YOUR HELP", karma: karma.positive },
@@ -176,7 +176,7 @@ questions =
   },
   {
     // Test for Empathy
-    title: "Test 11",
+    title: "Student Inquiries",
     question: "A classmate is struggling to understand a concept you've already mastered.",
     prompt: [
       { text: "OFFER TO EXPLAIN", karma: karma.positive },
@@ -186,7 +186,7 @@ questions =
   },
   {
     // Test for Teamwork
-    title: "Test 12",
+    title: "Stressed Teammate",
     question: "Your teammate feels overwhelmed by their workload.",
     prompt: [
       { text: "OFFER TO HELP", karma: karma.positive },
@@ -196,7 +196,7 @@ questions =
   },
   {
     // Test for Compassion
-    title: "Test 13",
+    title: "Misplaced Wallet",
     question: "You witness someone drop a wallet full of cash on the sidewalk.",
     prompt: [
       { text: "RETURN THE WALLET", karma: karma.positive },
@@ -206,7 +206,7 @@ questions =
   },
   {
     // Test for Empathy
-    title: "Test 14",
+    title: "A Shaky Topic",
     question: "She's getting emotional.",
     prompt: [
       { text: "LISTEN AND SUPPORT", karma: karma.positive },
@@ -216,7 +216,7 @@ questions =
   },
   {
     // Test for Teamwork
-    title: "Test 15",
+    title: "Tech Illiterate",
     question: "You notice that they are struggling to get that device to work.",
     prompt: [
       { text: "OFFER TO HELP", karma: karma.positive },

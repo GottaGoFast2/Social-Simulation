@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_titlelogo",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_titlelogo",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_titlelogo",
-    "path":"sprites/spr_titlelogo/spr_titlelogo.yy",
+    "name":"spr_title",
+    "path":"sprites/spr_title/spr_title.yy",
   },
   "spriteMaskId":null,
   "visible":true,
