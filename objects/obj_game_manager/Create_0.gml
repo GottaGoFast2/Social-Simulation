@@ -21,7 +21,7 @@ questions =
       ]
     },
     {
-      title: "Sandcastle Competition",
+      title: "The Contest",
       question: "Your friends are building a sandcastle.",
       prompt: [
           { text: "JOIN A TEAM", karma: karma.positive },
@@ -69,7 +69,7 @@ questions =
     ]
     },
     {
-      title: "Mockery", // Compassion 2
+      title: "The Bullies", // Compassion 2
       question: "They're being bullied and teased, for an unclear reason.",
       prompt:    
     [ 
@@ -108,7 +108,7 @@ questions =
     ]
     },
     {
-      title: "Raging", // Compassion 3
+      title: "High Tensions", // Compassion 3
       question: "They are furious, not at you directly.",
       prompt:    
     [ 
@@ -206,8 +206,8 @@ questions =
   },
   {
     // Test for Empathy
-    title: "A Shaky Topic",
-    question: "She's getting emotional.",
+    title: "A Shaky Situation",
+    question: "She's getting emotional talking about a difficult situation.",
     prompt: [
       { text: "LISTEN AND SUPPORT", karma: karma.positive },
       { text: "GIVE THEM ADVICE", karma: karma.neutral },

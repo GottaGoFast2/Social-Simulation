@@ -17,3 +17,4 @@ for (var i = 0; i < 3; i++) {
         prompts: prompt_array[i]
     });
 }
+box_cloud = 680;

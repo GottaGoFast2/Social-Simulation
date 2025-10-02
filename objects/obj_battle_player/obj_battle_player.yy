@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_idle_right",
-    "path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",
+    "name":"spr_robot",
+    "path":"sprites/spr_robot/spr_robot.yy",
   },
   "spriteMaskId":null,
   "visible":true,
