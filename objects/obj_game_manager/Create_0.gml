@@ -25,17 +25,17 @@ questions =
       question: "Your friends are building a sandcastle.",
       prompt: [
           { text: "JOIN A TEAM", karma: karma.positive },
-          { text: " MAKE YOUR OWN", karma: karma.neutral },
+          { text: "MAKE YOUR OWN", karma: karma.neutral },
           { text: "SABOTAGE OTHERS", karma: karma.bad }
       ]
     },
      {
       title: "Upset Kid", // Empathy 1
-      question: "They look upset.",
+      question: "They look upset and frustrated at some recent event.",
       prompt:    
     [ 
         {
-            text: "TALK IT OUT",
+            text: "TALK TO THEM",
             karma: karma.positive, 
         },
         {
@@ -43,7 +43,7 @@ questions =
             karma: karma.neutral,
         },
         {
-            text: "'JUST COPE'",
+            text: "TELL THEM TO COPE",
             karma: karma.bad,
         },
     ]
@@ -51,7 +51,7 @@ questions =
     
     {
       title: "Socially Awkward", // Teamwork 2
-      question: "Your friend is scared to talk to those people over there.",
+      question: "Your friend is scared to talk to a group in the distance.",
       prompt:    
     [ 
         {
@@ -59,11 +59,11 @@ questions =
             karma: karma.positive, 
         },
         {
-            text: "LAUGH AND DISMISS" ,
+            text: "CHANGE THE SUBJECT" ,
             karma: karma.neutral,
         },
         {
-            text: "CHANGE THE SUBJECT",
+            text: "MOCK AND TEASE",
             karma: karma.bad,
         },
     ]
@@ -90,7 +90,7 @@ questions =
     
     {
       title: "In the Dark", // Teamwork 3
-      question: "They seem to be left out of whatever their group is upto.",
+      question: "They seem to be left out of whatever their friend group is upto.",
       prompt:    
     [ 
         {
@@ -108,7 +108,7 @@ questions =
     ]
     },
     {
-      title: "High Tensions", // Compassion 3
+      title: "Emotional Outburst", // Compassion 3
       question: "They are furious, not at you directly.",
       prompt:    
     [ 
@@ -121,18 +121,18 @@ questions =
             karma: karma.neutral,
         },
         {
-            text: "SHOUT 'STOP!'",
+            text: "EXPLAIN HOW IT COULD'VE GONE BETTER",
             karma: karma.bad,
         },
     ]
     },
     {
       title: "The New Kid", // Empathy 2
-      question: "They seem new around here.",
+      question: "They just moved into this part of town.",
       prompt:    
     [ 
         {
-            text: "INTRODUCE AND BEFRIEND",
+            text: "BEFRIEND AND SHOW THEM THE TOWN",
             karma: karma.positive, 
         },
         {
@@ -140,7 +140,7 @@ questions =
             karma: karma.neutral,
         },
         {
-            text: "JUST LISTEN",
+            text: "WARN THEM OF DANGER IN THIS TOWN",
             karma: karma.bad,
         },
     ]
@@ -151,15 +151,15 @@ questions =
       prompt:    
     [ 
         {
-            text: "REASSURE AND HELP",
+            text: "REASSURE AND HELP THEM",
             karma: karma.positive, 
         },
         {
-            text: "IGNORE THEM" ,
+            text: "IGNORE THE ACCIDENT" ,
             karma: karma.neutral,
         },
         {
-            text: "BRING ATTENTION",
+            text: "BRING ATTENTION AND MOCK",
             karma: karma.bad,
         },
     ]
@@ -167,11 +167,11 @@ questions =
     {
     // Test for Compassion
     title: "The Lost Child",
-    question: "The child is lost and is asking you for help.",
+    question: "The child seems to be lost, frantically looking for something.",
     prompt: [
-      { text: "OFFER YOUR HELP", karma: karma.positive },
-      { text: "WAIT FOR PARENT", karma: karma.neutral },
-      { text: "WALK AWAY", karma: karma.bad }
+      { text: "HELP THE KID OUT", karma: karma.positive },
+      { text: "WAIT FOR THEIR PARENTS", karma: karma.neutral },
+      { text: "IGNORE AND WALK AWAY", karma: karma.bad }
     ]
   },
   {
@@ -180,8 +180,8 @@ questions =
     question: "A classmate is struggling to understand a concept you've already mastered.",
     prompt: [
       { text: "OFFER TO EXPLAIN", karma: karma.positive },
-      { text: "CONTINUE YOUR WORK", karma: karma.neutral },
-      { text: "SAY IT'S EASY", karma: karma.bad }
+      { text: "CONTINUE YOUR OWN WORK", karma: karma.neutral },
+      { text: "COMMENT ON THE SIMPLICITY", karma: karma.bad }
     ]
   },
   {
@@ -189,29 +189,29 @@ questions =
     title: "Stressed Teammate",
     question: "Your teammate feels overwhelmed by their workload.",
     prompt: [
-      { text: "OFFER TO HELP", karma: karma.positive },
-      { text: "DO YOUR PART", karma: karma.neutral },
+      { text: "HELP THEM OUT", karma: karma.positive },
+      { text: "MOTIVATE THEM", karma: karma.neutral },
       { text: "REPORT THEM NOW", karma: karma.bad }
     ]
   },
   {
     // Test for Compassion
     title: "Misplaced Wallet",
-    question: "You witness someone drop a wallet full of cash on the sidewalk.",
+    question: "You witness someone drop a wallet full of money on the sidewalk.",
     prompt: [
-      { text: "RETURN THE WALLET", karma: karma.positive },
-      { text: "HAND TO ADULT", karma: karma.neutral },
+      { text: "RETURN THE WALLET TO THE OWNER", karma: karma.positive },
+      { text: "HAND TO ADULT NEARBY", karma: karma.neutral },
       { text: "KEEP THE WALLET", karma: karma.bad }
     ]
   },
   {
     // Test for Empathy
-    title: "A Shaky Situation",
-    question: "She's getting emotional talking about a difficult situation.",
+    title: "The Silent Burden",
+    question: "A teammate has been unusually quiet, withdrawn, and stressed during group meetings.",
     prompt: [
-      { text: "LISTEN AND SUPPORT", karma: karma.positive },
-      { text: "GIVE THEM ADVICE", karma: karma.neutral },
-      { text: "CHANGE THE SUBJECT", karma: karma.bad }
+      { text: "PULL THEM ASIDE TO CHECK IN", karma: karma.positive }, // Active and private support
+      { text: "WAIT FOR THEM TO BRING IT UP", karma: karma.neutral }, // Passive, doesn't hurt, but doesn't help
+      { text: "COMPLAIN ABOUT THEIR LACK OF PARTICIPATION", karma: karma.bad } // Blame/Criticism
     ]
   },
   {
@@ -219,9 +219,9 @@ questions =
     title: "Tech Illiterate",
     question: "You notice that they are struggling to get that device to work.",
     prompt: [
-      { text: "OFFER TO HELP", karma: karma.positive },
+      { text: "HELP THEM TURN ON THE DEVICE", karma: karma.positive },
       { text: "FOCUS ON YOUR TASK", karma: karma.neutral },
-      { text: "COMPLAIN ABOUT LATENESS", karma: karma.bad }
+      { text: "COMPLAIN ABOUT INCOMPETENCY", karma: karma.bad }
     ]
   }  
 ]
@@ -258,17 +258,29 @@ instance_create_layer(0, 0, "Instances", obj_questions, {
 // ✅ When player answers
 submit_answer = function(_karma)
 {
+    // 1. Add karma points
     global.k_points += _karma;
+
+    // 2. Destroy the old UI
     instance_destroy(obj_prompt);
     instance_destroy(obj_questions);
+
+    // 3. Move to next question index
     testno++;
-    
-    // If we have more questions:
-    if (testno < array_length(questions)) {
+
+    // 4. Set how many questions you want to ask
+    var max_questions = 10;
+
+    // 5. If we haven’t reached the limit, go to next question
+    if (testno < max_questions) {
         instance_create_layer(0, 0, "Instances", obj_questions, {
             question: questions[testno]
         });
-    } else {
-        // All done! End screen? Reset? Your choice.
     }
+    // 6. Otherwise, delay and then go to results
+    else {
+        next_step = "end_game";
+        alarm[0] = room_speed * 1; // 1-second delay before results
+    }
+
 }
