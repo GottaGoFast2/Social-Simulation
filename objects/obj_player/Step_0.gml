@@ -1,15 +1,5 @@
 if (instance_exists(obj_dialog)) exit;
 
- if (keyboard_check_pressed(vk_space))
-{
-    create_dialog([
-    {
-    name: "You",
-    msg: "You acknowledged the fourth wall."
-    }   
-    ])   
-}    
-
 tilemap = layer_tilemap_get_id("Tiles_Col");
 var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);

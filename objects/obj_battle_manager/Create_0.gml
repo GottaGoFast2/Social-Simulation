@@ -1,6 +1,12 @@
 enemy_turn = 0;
 damage_to_enemy = 0;
-testdialog = 0;
+testdialog = 1;
+
+if (testdialog == 1)
+{
+    create_dialog(global.welcome_dialog)
+    testdialog = 0;
+}
 
 player_attack = function (_damage)
 {

@@ -1,3 +1,3 @@
-input_key = vk_space;
+input_key = mb_left;
 can_talk = false;
-text_key = vk_return;
+text_key = mb_left;
