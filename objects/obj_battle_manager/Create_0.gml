@@ -4,8 +4,16 @@ testdialog = 1;
 
 if (testdialog == 1)
 {
-    create_dialog(global.welcome_dialog)
-    testdialog = 0;
+    if (global.remember = 0)
+    {
+        create_dialog(global.welcome_dialog)
+        testdialog = 0;
+        global.remember = 1;
+    }
+    else if (global.remember == 1)
+    {
+        testdialog = 0;
+    }
 }
 
 player_attack = function (_damage)
